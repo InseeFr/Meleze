@@ -1,0 +1,5 @@
+@#define EULERGOV= 0 
+BRar = 9e-001 ;
+BRcycle = 4e-002 ;
+BRrr = 0e+000 ;
+BRdef = 2e-002 ;

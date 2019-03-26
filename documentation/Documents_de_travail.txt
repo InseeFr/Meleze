@@ -1,0 +1,34 @@
+# Mélèze
+# Copyright © 2005-2018, Institut national de la statistique et des études économiques
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+############################################################################## 
+Le document de travail de l'Insee présentant le modèle Mélèze est le suivant :
+
+B. Campagne et A. Poissionnier (2016) 
+Mélèze : une modélisation DSGE de la France au sein de la zone euro 
+Documents de travail, n° G2016/05, Insee, 2016. 
+https://www.insee.fr/fr/statistiques/2022155 
+
+############################################################################## 
+Autres études réalisées à l'aide de Mélèze ou d'un modèle s'en inspirant :
+
+B. Campagne et A. Poissionnier (2016)
+Courbes de Laffer et multiplicateurs budgétaires à partir du modèle Mélèze
+Documents de travail, n° G2016/06, Insee, 2016. 
+https://www.insee.fr/fr/statistiques/2022147
+
+Boussard, J. et Campagne, B. (2017)
+Fiscal policy coordination in a monetary union at the zero lower bound 
+Économie et Statistique , n° 494-495-496, Insee, 2017. 
+https://www.insee.fr/fr/statistiques/3135063?sommaire=3135098
+

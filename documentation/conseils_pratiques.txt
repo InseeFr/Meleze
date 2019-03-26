@@ -1,0 +1,69 @@
+######################## CONSEILS PRATIQUES ################################################
+
+################################## 
+1 - Structure du répertoire 'code'
+################################## 
+
+Le répertoire 'code' contient le code source de Mélèze. Celui-ci est mis à disposition 
+pour réaliser deux types de simulations :
+(i) des simulations manuelles, à la discrétion de l'utilisateur : répertoire './Simulations_manuelles'
+(ii) des simulations reproduisant les figures 7 à 14 du document de travail (B. Camagne et
+A. Poissonnier, 2016, 'Mélèze : une modélisation DSGE de la France au sein de la zone euro', G2016/05, Insee) : 
+répertoire './Simulations_document_de_travail'
+
+#########################
+2 - Simulations manuelles
+#########################
+
+2.1 - Structure du répertoire './Simulations_manuelles'
+
++ fichier meleze.mod : code source du modèle pour les simulations manuelles
++ répertoire './SAVED_Inputs' : 
+++ fichier calib_CalibrationFR_EU.txt : calibration des paramètres
+++ fichier meleze_variables(block).mod : déclaration des variables du modèle
+++ fichier meleze_model(block).mod : équations du modèle
+
+2.2 - Marche à suivre pour les simulations manuelles
+
++ installer Dynare
++ dans le fichier meleze.mod, choisir le choc souhaité
++ lancer le fichier meleze.mod avec Dynare ('dynare meleze')
+
+######################################################################
+3 - Simulations reproduisant les figures 7 à 14 du document de travail
+######################################################################
+
+3.1 - Structure du répertoire './Simulations_document_de_travail'
+
++ fichier simulation_IRF_DT_figxxx.m : réalisation de la simulation associée à la ou les figures xxx du document de travail
++ fichier mise_en_forme_IRF_DT_figxxx.m : mise en forme des résultats de la simulation pour reproduire la ou les figures xxx du document de travail
++ fichier meleze_lood.mod : code source du modèle pour les simulations reproduisant les ficgures du document de travail
++ fichiers calib_temp.txt, DummiesORNot_temp.txt, EulerORBR_temp.txt : fichiers intermédiaires automatiquement créés par simulation_IRF_DT_figxxx.m
++ répertoire './SAVED_Inputs' : 
+++ fichiers calib_CalibrationFR_EUxxx.txt : différents types de calibration des paramètres
+++ fichier meleze_variables(block).mod : déclaration des variables du modèle
+++ fichier meleze_model(block).mod : équations du modèle
++ répertoire './SAVED_IRFS' : stocke les résultats des simulations et les graphiques créés
+
+3.2 - Marche à suivre pour les simulations reproduisant les figures 7 à 14 du document de travail
+
+Pour reproduire les figure 2 à 5 du document de travail :
++ installer Dynare
++ lancer le fichier simulation_IRF_DT_fig2_5.m
++ lancer le fichier mise_en_forme_IRF_DT_fig2_5.m
++ les figures souhaitées sont créées et stockées sous './SAVED_IRFS'
+
+Procéder de façon analogue pour reproduire la figure 6 ainsi que les figures 7 à 14.
+
+##################################################################
+4 - Documents de travail et publications associés au modèle Méleze
+##################################################################
+
+B. Camagne et A. Poissonnier (2016), Mélèze : une modélisation DSGE de la France au sein de la zone euro, G2016/05, Insee.
+
+B. Camagne et A. Poissonnier (2016), Courbes de Laffer et multiplicateurs budgétaires à partir du modèle Mélèze, G2016/06, Insee.
+
+J. Boussard et B. Campagne (2017), La coordination des politiques budgétaires dans une union monétaire au taux plancher zéro, Économie et statistique, n°494-495-496, 2017.
+
+
+
